@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Vinicius Baggio Fuentes" />
+
+        <title>Filtros no Vim</title>
+
+    </head>
+
+    <body>
+        <h1>Filtros em buffer</h1>
+
+<p>No Vim, é possível filtrar o conteúdo de um buffer em um comando do shell.
+Sabemos que as aplicações *nix são do tipo "faça uma coisa e faça-a bem".
+Então, temos várias coisas úteis, como uniq, grep, cut, awk, egrep e etc. Dessa
+forma, podemos combinar os dois e fazer algumas coisas interessantes.</p>
+
+<p>O primeiro exemplo é de como podemos pegar o conteúdo em um buffer do Vim e
+obter apenas as entradas únicas:</p>
+
+<p>Conteúdo:</p>
+
+<pre><code>a@a.com
+a@a.com
+b@b.com
+c@c.com
+</code></pre>
+
+<p>Assim, com esse conteúdo, podemos executar: ":%!uniq". O resultado é:</p>
+
+<pre><code>a@a.com
+b@b.com
+c@c.com
+</code></pre>
+
+<p>O comando é simples. Com o conteúdo de todo o buffer, passe para o comando do
+shell (identificado por !, pois podemos executar coisas como :!mkdir /bla) e
+coloque o resultado no próprio buffer.</p>
+
+<p>Eu tive que fazer algo parecido com isso ontem. Eu tinha um arquivo com várias
+entradas (cerca de 9000) e precisava de apenas entradas cujos emails não estavam contidos em outra lista. Dessa forma, o que eu fiz foi o seguinte:</p>
+
+<p>entradas:</p>
+
+<pre><code>Entrada1: a@a.com, x, y, z, theta
+Entrada2: b@b.com, x, y, z, theta
+Entrada3: c@c.com, x, y, z, theta
+</code></pre>
+
+<p>blacklist:</p>
+
+<pre><code>b@b.com
+</code></pre>
+
+<p>Assim, com o buffer "entradas" aberto, para filtrar o conteúdo, bastou executar
+":%!fgrep -vf blacklist". O grep apenas exibe comandos que dão <em>match</em>, enquanto
+o parâmetro -v faz a inversão disso, ou seja, eu quero as entradas que <em>não</em>
+ocorra match. O -f é para obter os matches de um arquivo. Dessa forma o resultado
+fica:</p>
+
+<pre><code>Entrada1: a@a.com, x, y, z, theta
+Entrada3: c@c.com, x, y, z, theta
+</code></pre>
+
+<p>Mais detalhes em <a href="http://www.softpanorama.org/Editors/Vimorama/vim_piping.shtml">Vim piping</a>.</p>
+
+    </body>
+</html>

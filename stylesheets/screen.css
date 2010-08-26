@@ -1,0 +1,138 @@
+/* line 14, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../.rvm/gems/ree-1.8.7-2010.02/gems/compass-0.10.4/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 5, ../_sass/general.scss */
+body {
+  width: 600px;
+  text-align: center;
+  font: 14px Palatino Linotype, Book Antiqua, Palatino, serif;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+}
+
+/* line 16, ../_sass/general.scss */
+h1, h2, h3 {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+/* line 20, ../_sass/general.scss */
+header {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+/* line 28, ../_sass/general.scss */
+header h1 {
+  font-size: 4em;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.07em;
+}
+/* line 35, ../_sass/general.scss */
+header h1 a {
+  color: black;
+  text-decoration: none;
+}
+/* line 41, ../_sass/general.scss */
+header h2 {
+  padding-top: 10px;
+  font: 1.5em Helvetica Neue, Helvetica, sans-serif;
+}
+
+/* line 46, ../_sass/general.scss */
+footer {
+  font-size: 0.9em;
+  margin: 3%;
+  padding: 3%;
+  border-top: 1px dotted black;
+}
+
+/* line 5, ../_sass/content.scss */
+#content {
+  clear: both;
+  text-align: left;
+}
+
+/* line 10, ../_sass/content.scss */
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* line 17, ../_sass/content.scss */
+p {
+  margin: 15px 0;
+}
+
+/* line 21, ../_sass/content.scss */
+pre {
+  margin: 4%;
+  padding: 4%;
+  border: 1px dotted #555555;
+  background-color: #eeeeee;
+}
+
+/* line 28, ../_sass/content.scss */
+code {
+  font-family: Courier New, monospace;
+}

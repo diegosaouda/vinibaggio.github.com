@@ -1,0 +1,48 @@
+/* line 5, ../_sass/general.scss */
+body {
+  width: 600px;
+  text-align: center;
+  font: 14px Palatino Linotype, Book Antiqua, Palatino, serif;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+}
+
+/* line 16, ../_sass/general.scss */
+h1, h2, h3 {
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+/* line 20, ../_sass/general.scss */
+header {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+/* line 28, ../_sass/general.scss */
+header h1 {
+  font-size: 4em;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.07em;
+}
+/* line 35, ../_sass/general.scss */
+header h1 a {
+  color: black;
+  text-decoration: none;
+}
+/* line 41, ../_sass/general.scss */
+header h2 {
+  padding-top: 10px;
+  font: 1.5em Helvetica Neue, Helvetica, sans-serif;
+}
+
+/* line 46, ../_sass/general.scss */
+footer {
+  font-size: 0.9em;
+  margin: 3%;
+  padding: 3%;
+  border-top: 1px dotted black;
+}

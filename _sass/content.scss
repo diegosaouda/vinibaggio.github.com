@@ -1,0 +1,30 @@
+$block-border-color: #555;
+$block-color: #eee;
+$block-margin: 8%;
+
+#content {
+  clear: both;
+  text-align: left;
+}
+
+h3 {
+  font: {
+    size: 1.3em;
+    weight: bold;
+  }
+}
+
+p {
+  margin: 15px 0;
+}
+
+pre {
+  margin: $block-margin / 2;
+  padding: $block-margin / 2;
+  border: 1px dotted $block-border-color;
+  background-color: $block-color;
+}
+
+code {
+  font-family: Courier New, monospace;
+}

@@ -1,0 +1,29 @@
+/* line 5, ../_sass/content.scss */
+#content {
+  clear: both;
+  text-align: left;
+}
+
+/* line 10, ../_sass/content.scss */
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* line 17, ../_sass/content.scss */
+p {
+  margin: 15px 0;
+}
+
+/* line 21, ../_sass/content.scss */
+pre {
+  margin: 4%;
+  padding: 4%;
+  border: 1px dotted #555555;
+  background-color: #eeeeee;
+}
+
+/* line 28, ../_sass/content.scss */
+code {
+  font-family: Courier New, monospace;
+}
