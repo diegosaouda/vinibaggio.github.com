@@ -5,12 +5,12 @@ category: Vim
 
 ---
 
-### Filtros
+# Filtros
 
 No Vim, é possível filtrar o conteúdo de um buffer em um comando do shell.
 Sabemos que as aplicações \*nix são do tipo "faça uma coisa e faça-a bem".
-Então, temos várias coisas úteis, como <code>uniq</code>, <code>grep</code>,
-<code>cut</code>, <code>awk</code>, <code>egrep</code> e etc. Dessa
+Então, temos várias coisas úteis, como <kbd>uniq</kbd>, <kbd>grep</kbd>,
+<kbd>cut</kbd>, <kbd>awk</kbd>, <kbd>egrep</kbd> e etc. Dessa
 forma, podemos combinar os dois e fazer algumas coisas interessantes.
 
 O primeiro exemplo é de como podemos pegar o conteúdo em um buffer do Vim e
@@ -23,7 +23,7 @@ Conteúdo:
     b@b.com
     c@c.com
 
-Assim, com esse conteúdo, podemos executar: <code>:%!uniq</code>. O resultado é:
+Assim, com esse conteúdo, podemos executar: <kbd>:%!uniq</kbd>. O resultado é:
 
     a@a.com
     b@b.com
@@ -31,7 +31,7 @@ Assim, com esse conteúdo, podemos executar: <code>:%!uniq</code>. O resultado �
 
 O comando é simples. Com o conteúdo de todo o buffer, passe para o comando do
 shell (identificado por !, pois podemos executar coisas como 
-<code>:!mkdir /bla</code>) e coloque o resultado no próprio buffer.
+<kbd>:!mkdir /bla</kbd>) e coloque o resultado no próprio buffer.
 
 Eu tive que fazer algo parecido com isso ontem. Eu tinha um arquivo com várias
 entradas (cerca de 9000) e precisava de apenas entradas cujos emails não estavam
@@ -49,9 +49,9 @@ blacklist:
 
 
 Assim, com o buffer "entradas" aberto, para filtrar o conteúdo, bastou executar
-<code>:%!fgrep -vf blacklist</code>. O grep apenas exibe comandos que dão _match_, enquanto
-o parâmetro <code>-v</code> faz a inversão disso, ou seja, eu quero as entradas que *não*
-ocorra match. O <code>-f</code> é para obter os matches de um arquivo. Dessa forma o resultado
+<kbd>:%!fgrep -vf blacklist</kbd>. O grep apenas exibe comandos que dão _match_, enquanto
+o parâmetro <kbd>-v</kbd> faz a inversão disso, ou seja, eu quero as entradas que *não*
+ocorra match. O <kbd>-f</kbd> é para obter os matches de um arquivo. Dessa forma o resultado
 fica:
 
     Entrada1: a@a.com, x, y, z, theta

@@ -1,18 +1,18 @@
 /* line 5, ../_sass/content.scss */
-#content {
+article {
   clear: both;
   text-align: left;
 }
 
 /* line 10, ../_sass/content.scss */
-h3 {
+article h1 {
   font-size: 1.3em;
   font-weight: bold;
 }
 
 /* line 17, ../_sass/content.scss */
 p {
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 /* line 21, ../_sass/content.scss */
@@ -24,6 +24,6 @@ pre {
 }
 
 /* line 28, ../_sass/content.scss */
-code {
+code, kbd {
   font-family: Courier New, monospace;
 }

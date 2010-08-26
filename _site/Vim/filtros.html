@@ -18,14 +18,16 @@
       <header>
         <h1><a href="/">vinibaggio.com</a></h1>
         <h2>refactoring myself each day.</h2>
+        <a href="http://www.github.com/vinibaggio" id="octocat" class="image-icon" title="Meu perfil no GitHub">GitHub</a>
+        <a href="http://www.twitter.com/vinibaggio" id="twitter" class="image-icon" title="Meu Twitter">Twitter</a>
       </header>
-      <div id="content">
-        <h3>Filtros</h3>
+      <article>
+        <h1>Filtros</h1>
 
 <p>No Vim, é possível filtrar o conteúdo de um buffer em um comando do shell.
 Sabemos que as aplicações *nix são do tipo "faça uma coisa e faça-a bem".
-Então, temos várias coisas úteis, como <code>uniq</code>, <code>grep</code>,
-<code>cut</code>, <code>awk</code>, <code>egrep</code> e etc. Dessa
+Então, temos várias coisas úteis, como <kbd>uniq</kbd>, <kbd>grep</kbd>,
+<kbd>cut</kbd>, <kbd>awk</kbd>, <kbd>egrep</kbd> e etc. Dessa
 forma, podemos combinar os dois e fazer algumas coisas interessantes.</p>
 
 <p>O primeiro exemplo é de como podemos pegar o conteúdo em um buffer do Vim e
@@ -39,7 +41,7 @@ b@b.com
 c@c.com
 </code></pre>
 
-<p>Assim, com esse conteúdo, podemos executar: <code>:%!uniq</code>. O resultado é:</p>
+<p>Assim, com esse conteúdo, podemos executar: <kbd>:%!uniq</kbd>. O resultado é:</p>
 
 <pre><code>a@a.com
 b@b.com
@@ -48,7 +50,7 @@ c@c.com
 
 <p>O comando é simples. Com o conteúdo de todo o buffer, passe para o comando do
 shell (identificado por !, pois podemos executar coisas como
-<code>:!mkdir /bla</code>) e coloque o resultado no próprio buffer.</p>
+<kbd>:!mkdir /bla</kbd>) e coloque o resultado no próprio buffer.</p>
 
 <p>Eu tive que fazer algo parecido com isso ontem. Eu tinha um arquivo com várias
 entradas (cerca de 9000) e precisava de apenas entradas cujos emails não estavam
@@ -67,9 +69,9 @@ Entrada3: c@c.com, x, y, z, theta
 </code></pre>
 
 <p>Assim, com o buffer "entradas" aberto, para filtrar o conteúdo, bastou executar
-<code>:%!fgrep -vf blacklist</code>. O grep apenas exibe comandos que dão <em>match</em>, enquanto
-o parâmetro <code>-v</code> faz a inversão disso, ou seja, eu quero as entradas que <em>não</em>
-ocorra match. O <code>-f</code> é para obter os matches de um arquivo. Dessa forma o resultado
+<kbd>:%!fgrep -vf blacklist</kbd>. O grep apenas exibe comandos que dão <em>match</em>, enquanto
+o parâmetro <kbd>-v</kbd> faz a inversão disso, ou seja, eu quero as entradas que <em>não</em>
+ocorra match. O <kbd>-f</kbd> é para obter os matches de um arquivo. Dessa forma o resultado
 fica:</p>
 
 <pre><code>Entrada1: a@a.com, x, y, z, theta
@@ -78,7 +80,7 @@ Entrada3: c@c.com, x, y, z, theta
 
 <p>Mais detalhes sobre isso em <a href="http://www.softpanorama.org/Editors/Vimorama/vim_piping.shtml">Vim piping</a>.</p>
 
-      </div>
+      </article>
       <footer>
         vinibaggio.com - nenhum direito reservado.
         <ul>

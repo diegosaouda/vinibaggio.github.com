@@ -1,8 +1,11 @@
 $page-width: 600px;
-$font-body: 14px;
+$font-body: 16px;
+$font-color: black;
 $heading-fonts: Helvetica Neue, Helvetica, sans-serif;
 
 body {
+  color: $font-color;
+  background-color: white;
   width: $page-width;
   text-align: center;
   font: $font-body Palatino Linotype, Book Antiqua, Palatino, serif;
@@ -11,10 +14,13 @@ body {
     left: auto;
     right: auto;
   }
-  line-height: 1.5em;
+  line-height: 1.8em;
 }
 h1,h2,h3 {
-  font-family: $heading-fonts;
+  font: {
+    family: $heading-fonts;
+    color: $font-color;
+  }
 }
 
 header {
@@ -23,29 +29,49 @@ header {
   margin-bottom: 10px; 
 
   text-align: left;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid $font-color;
 
   h1 {
+    height: 50px;
     font: {
       size: 4em;
-      family: $heading-fonts;
       weight: 800;
     }
     letter-spacing: -0.07em;
     a {
-      color: black;
+      color: $font-color;
       text-decoration: none;
     }
   }
 
   h2 {
-    padding-top: 10px;
-    font: 1.5em $heading-fonts;
+    font-size: 1.5em;
+    display: inline;
   }
+
+  $icon-size: 48px;
+
+  #octocat, #twitter {
+    vertical-align: baseline;
+    width: $icon-size;
+    height: $icon-size;
+    background-position: 0 0;
+    float: right;
+  }
+  #octocat{ background: url(/images/octocat.png) no-repeat; }
+  #twitter{ background: url(/images/twitter.png) no-repeat; }
+  #octocat:hover, #twitter:hover {
+    background-position: 0 -$icon-size;
+  }
+
 }
 footer {
   font-size: 0.9em;
   margin: 3%;
   padding: 3%;
   border-top: 1px dotted black;
+}
+
+.image-icon {
+  text-indent: -9999px;
 }
