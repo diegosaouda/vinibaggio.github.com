@@ -1,4 +1,4 @@
-/* line 6, ../_sass/general.scss */
+/* line 7, ../_sass/general.scss */
 body {
   color: black;
   background-color: white;
@@ -10,13 +10,13 @@ body {
   line-height: 1.8em;
 }
 
-/* line 19, ../_sass/general.scss */
+/* line 20, ../_sass/general.scss */
 h1, h2, h3 {
   font-family: Helvetica Neue, Helvetica, sans-serif;
   font-color: black;
 }
 
-/* line 26, ../_sass/general.scss */
+/* line 27, ../_sass/general.scss */
 header {
   width: 100%;
   padding: 20px 0;
@@ -24,24 +24,25 @@ header {
   text-align: left;
   border-bottom: 1px solid black;
 }
-/* line 34, ../_sass/general.scss */
+/* line 35, ../_sass/general.scss */
 header h1 {
   height: 50px;
   font-size: 4em;
   font-weight: 800;
   letter-spacing: -0.07em;
 }
-/* line 41, ../_sass/general.scss */
-header h1 a {
+/* line 42, ../_sass/general.scss */
+header h1 a, header h1 a:hover, header h1 a:visited {
   color: black;
+  background-color: white;
   text-decoration: none;
 }
-/* line 47, ../_sass/general.scss */
+/* line 49, ../_sass/general.scss */
 header h2 {
   font-size: 1.5em;
   display: inline;
 }
-/* line 54, ../_sass/general.scss */
+/* line 56, ../_sass/general.scss */
 header #octocat, header #twitter {
   vertical-align: baseline;
   width: 48px;
@@ -49,28 +50,50 @@ header #octocat, header #twitter {
   background-position: 0 0;
   float: right;
 }
-/* line 61, ../_sass/general.scss */
+/* line 63, ../_sass/general.scss */
 header #octocat {
   background: url(/images/octocat.png) no-repeat;
 }
-/* line 62, ../_sass/general.scss */
+/* line 64, ../_sass/general.scss */
 header #twitter {
   background: url(/images/twitter.png) no-repeat;
 }
-/* line 63, ../_sass/general.scss */
+/* line 65, ../_sass/general.scss */
 header #octocat:hover, header #twitter:hover {
   background-position: -48px;
 }
 
-/* line 68, ../_sass/general.scss */
+/* line 71, ../_sass/general.scss */
+article a, article a:hover, section a, section a:hover, nav a, nav a:hover {
+  padding: 3px;
+}
+/* line 72, ../_sass/general.scss */
+article a, section a, nav a {
+  font-weight: bold;
+  color: black;
+}
+/* line 77, ../_sass/general.scss */
+article a:hover, section a:hover, nav a:hover {
+  background-color: #cccccc;
+}
+/* line 81, ../_sass/general.scss */
+article a:visited, section a:visited, nav a:visited {
+  color: #666666;
+}
+
+/* line 86, ../_sass/general.scss */
 footer {
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin: 3%;
   padding: 3%;
   border-top: 1px dotted black;
 }
+/* line 91, ../_sass/general.scss */
+footer a, footer a:hover, footer a:visited {
+  color: #666666;
+}
 
-/* line 75, ../_sass/general.scss */
+/* line 96, ../_sass/general.scss */
 .image-icon {
   text-indent: -9999px;
 }

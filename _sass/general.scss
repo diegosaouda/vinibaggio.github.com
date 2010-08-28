@@ -1,11 +1,12 @@
 $page-width: 600px;
 $font-body: 16px;
 $font-color: black;
+$bg-color: white;
 $heading-fonts: Helvetica Neue, Helvetica, sans-serif;
 
 body {
   color: $font-color;
-  background-color: white;
+  background-color: $bg-color;
   width: $page-width;
   text-align: center;
   font: $font-body Palatino Linotype, Book Antiqua, Palatino, serif;
@@ -38,8 +39,9 @@ header {
       weight: 800;
     }
     letter-spacing: -0.07em;
-    a {
+    a, a:hover, a:visited{
       color: $font-color;
+      background-color: $bg-color;
       text-decoration: none;
     }
   }
@@ -63,13 +65,32 @@ header {
   #octocat:hover, #twitter:hover {
     background-position: 0 -$icon-size;
   }
-
 }
+
+article, section, nav {
+  a, a:hover { padding: 3px; }
+  a {
+    font-weight: bold;
+    color: $font-color;
+  }
+
+  a:hover {
+    background-color: $font-color + #ccc;
+  }
+
+  a:visited {
+    color: $font-color + #666;
+  }
+}
+
 footer {
-  font-size: 0.9em;
+  font-size: 0.8em;
   margin: 3%;
   padding: 3%;
   border-top: 1px dotted black;
+  a, a:hover, a:visited {
+    color: $font-color + #666;
+  }
 }
 
 .image-icon {

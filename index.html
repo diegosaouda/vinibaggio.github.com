@@ -3,14 +3,12 @@ layout: default
 title: Home
 ---
 
-<div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li>
-      <span>{{ post.date | date: '%d/%m/%Y' }}</span> &raquo;
-      <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a> &mdash; na(s) categoria(s):
-      {{ post.categories | array_to_sequence_strings }}
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <span>{{ post.date | date: '%d/%m/%Y' }}</span> &raquo;
+    <a href="{{ post.url }}">{{ post.title }}</a> &mdash; na(s) categoria(s):
+    {{ post.categories | array_to_sequence_strings }}
+  </li>
+  {% endfor %}
+</ul>

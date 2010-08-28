@@ -24,6 +24,18 @@
       <article>
         {{ content }}
       </article>
+      <section class="read-more">
+        <h1>Leia também</h1>
+        <ul>
+          {% for post in site.related_posts limit:3 %}
+          <li>
+            <span>{{ post.date | date: '%d/%m/%Y' }}</span> &raquo;
+            <a href="{{ post.url }}">{{ post.title }}</a> &mdash; na(s) categoria(s):
+            {{ post.categories | array_to_sequence_strings }}
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
       <div id="disqus_thread"></div>
       <script type="text/javascript">
         /**
@@ -38,9 +50,10 @@
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=vinibaggio">comments powered by Disqus.</a></noscript>
       <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
       <footer>
-        vinibaggio.com - nenhum direito reservado.
         <ul>
+          <li><a href="/" title="Página inicial">Home</a></li>
         </ul>
+        vinibaggio.com - nenhum direito reservado.
       </footer>
       <script type="text/javascript">
       var disqus_shortname = 'vinibaggio';

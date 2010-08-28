@@ -1,6 +1,8 @@
 $block-border-color: #555;
 $block-color: #eee;
 $block-margin: 8%;
+$font-body: 16px;
+$sections-margin: 20px;
 
 article {
   clear: both;
@@ -14,8 +16,18 @@ article h1 {
   }
 }
 
+section.read-more {
+  text-align: left;
+  font-size: $font-body - 2px;
+  margin: $sections-margin 0;
+}
+section.read-more h1 { font-weight: bold;}
+section.read-more ul {
+  margin-left: $sections-margin;
+}
+
 p {
-  margin: 20px 0;
+  margin: $sections-margin 0;
 }
 
 pre {

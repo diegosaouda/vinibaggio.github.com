@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Vinicius Baggio Fuentes" />
+
+        <title>Novo Blog &mdash; vinibaggio.com - refactoring myself each day</title>
+
+        <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+        <!--[if IE]>
+          <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <![endif]-->
+    </head>
+
+    <body>
+      <header>
+        <h1><a href="/">vinibaggio.com</a></h1>
+        <h2>refactoring myself each day.</h2>
+        <a href="http://www.github.com/vinibaggio" id="octocat" class="image-icon" title="Meu perfil no GitHub">GitHub</a>
+        <a href="http://www.twitter.com/vinibaggio" id="twitter" class="image-icon" title="Meu Twitter">Twitter</a>
+      </header>
+      <article>
+        <h1>Novo blog</h1>
+
+<p>Eu tenho problemas para manter um blog. Eu sempre esqueço de fazer posts, tinha
+preguiça e etc. Mas eu realmente preciso manter um blog. Quando fui montar,
+primeiro pensei em <a href="http://posterous.com/">Posterous</a> ou
+<a href="http://www.tumblr.com">Tumblr</a>, ótimo para quem quer clicar e ter a coisa
+funcionando em pouco tempo &mdash; perfeito para meu perfil preguiçoso.</p>
+
+<p>Mas eu pensei que seria uma ótima oportunidade para aprender deliberadamente,
+tentar alguma coisa diferente, sair do comum. Comecei com o
+<a href="http://effectif.com/nesta/">Nesta</a>, até publiquei um post nele, mas não estava
+satisfeito. Daí fui procurar outra coisa. Me indicaram duas coisas:</p>
+
+<ul>
+<li><a href="http://www.padrinorb.com/">Padrino</a> - Um framework pra web apps em Sinatra,
+parece bem legal;</li>
+<li><a href="http://www.enkiblog.com/">Enki</a> - Engine de blog em Rails, com a ideia de ser
+uma base para você dobrá-lo à sua vontade.</li>
+</ul>
+
+
+<p>Padrino parece legal, mas não parecia diferente o suficiente para mim. O mesmo
+eu posso falar do Enki, aliás ainda mais, pois trabalho o dia todo com Rails (e
+ainda nem é o Rails 3), então, apesar de ser muito bom, desencanei.</p>
+
+<p>Aí descobri esse tal de <a href="http://github.com/mojombo/jekyll">Jekyll</a>.
+Totalmente diferente. A ideia dele é que ele gera HTML puro a partir
+de uma configuração em um arquivo chamado <kbd>_config.yml</kbd>. Uma das
+coisas legais é que eu posso escrever posts no meu computador, usando o markup
+que eu quiser (nesse caso estou usando Markdown) e o meu editor favorito, o Vim.</p>
+
+<p>E convenhamos que fazer deploy mais simples que copiar HTML's seria pedir demais.</p>
+
+<p><img src="/images/posts/novo-blog/compass.png" alt="Compass" /></p>
+
+<p>Continuando, resolvi testar um outro cara chamado
+<a href="http://compass-style.org/">Compass</a>. Ele é uma camada em cima do
+<a href="http://sass-lang.com/">SASS</a>, com algumas incrementações. Enfim nasceu isso.</p>
+
+<p>Quanto ao layout, eu sou péssimo com design, então ser minimalista não é um
+estilo, mas falta de opção mesmo.</p>
+
+<p>Para os comentários, estou usando <a href="http://www.disqus.com">Disqus</a>, que virou
+basicamente o default pra comentários, e eu não queria sair disso, pois o Disqus
+é muito bom.</p>
+
+<p>Se alguém quiser ver o resultado, posso colocar no GitHub, mas vou manter em um
+repo git pessoal, pra que <kbd>git push</kbd> seja tudo o que eu precise para
+atualizar o blog. É isso.</p>
+
+      </article>
+      <section class="read-more">
+        <h1>Leia também</h1>
+        <ul>
+          
+          <li>
+            <span>24/08/2010</span> &raquo;
+            <a href="/Vim/2010-08-24/filtros.html">Filtros</a> &mdash; na(s) categoria(s):
+            Vim
+          </li>
+          
+        </ul>
+      </section>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        /**
+          * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread]
+          */
+        (function() {
+         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+         dsq.src = 'http://vinibaggio.disqus.com/embed.js';
+         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=vinibaggio">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+      <footer>
+        <ul>
+          <li><a href="/" title="Página inicial">Home</a></li>
+        </ul>
+        vinibaggio.com - nenhum direito reservado.
+      </footer>
+      <script type="text/javascript">
+      var disqus_shortname = 'vinibaggio';
+      (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.src = 'http://disqus.com/forums/vinibaggio/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+      </script>
+    </body>
+</html>
+
