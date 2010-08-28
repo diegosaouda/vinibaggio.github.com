@@ -4,7 +4,7 @@
  <title>vinibaggio.com</title>
  <link href="http://vinibaggio.com/atom.xml" rel="self"/>
  <link href="http://vinibaggio.com/"/>
- <updated>2010-08-27T21:46:13-03:00</updated>
+ <updated>2010-08-27T23:12:56-03:00</updated>
  <id>http://vinibaggio.com/</id>
  <author>
    <name>Vinicius Baggio Fuentes</name>
@@ -66,6 +66,8 @@ basicamente o default pra comentários, e eu não queria sair disso, pois o Disq
 &lt;p&gt;Se alguém quiser ver o resultado, posso colocar no GitHub, mas vou manter em um
 repo git pessoal, pra que &lt;kbd&gt;git push&lt;/kbd&gt; seja tudo o que eu precise para
 atualizar o blog. É isso.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Atualização&lt;/em&gt;: &lt;a href=&quot;http://github.com/vinibaggio/vinibaggio.github.com&quot;&gt;Publiquei o código-fonte no GitHub&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  

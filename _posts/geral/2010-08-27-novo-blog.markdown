@@ -50,3 +50,5 @@ basicamente o default pra comentários, e eu não queria sair disso, pois o Disq
 Se alguém quiser ver o resultado, posso colocar no GitHub, mas vou manter em um
 repo git pessoal, pra que <kbd>git push</kbd> seja tudo o que eu precise para
 atualizar o blog. É isso.
+
+_Atualização_: [Publiquei o código-fonte no GitHub](http://github.com/vinibaggio/vinibaggio.github.com).
