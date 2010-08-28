@@ -74,7 +74,7 @@ article a, section a, nav a {
 }
 /* line 77, ../_sass/general.scss */
 article a:hover, section a:hover, nav a:hover {
-  background-color: #cccccc;
+  background-color: #eeeeee;
 }
 /* line 81, ../_sass/general.scss */
 article a:visited, section a:visited, nav a:visited {
