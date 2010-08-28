@@ -5,3 +5,4 @@ permalink: /:categories/:title.html
 lsi: true
 exclude:
   - config.rb
+  - README.md
