@@ -4,7 +4,7 @@
  <title>vinibaggio.com</title>
  <link href="http://vinibaggio.com/atom.xml" rel="self"/>
  <link href="http://vinibaggio.com/"/>
- <updated>2010-08-27T21:40:13-03:00</updated>
+ <updated>2010-08-27T21:41:53-03:00</updated>
  <id>http://vinibaggio.com/</id>
  <author>
    <name>Vinicius Baggio Fuentes</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Novo Blog</title>
-   <link href="http://vinibaggio.com/Geral/2010-08-27/novo-blog.html"/>
+   <link href="http://vinibaggio.com/Geral/novo-blog.html"/>
    <updated>2010-08-27T00:00:00-03:00</updated>
-   <id>http://vinibaggio.com/Geral/2010-08-27/novo-blog</id>
+   <id>http://vinibaggio.com/Geral/novo-blog</id>
    <content type="html">&lt;h1&gt;Novo blog&lt;/h1&gt;
 
 &lt;p&gt;Eu tenho problemas para manter um blog. Eu sempre esqueço de fazer posts, tinha
@@ -71,9 +71,9 @@ atualizar o blog. É isso.&lt;/p&gt;
  
  <entry>
    <title>Filtros</title>
-   <link href="http://vinibaggio.com/Vim/2010-08-24/filtros.html"/>
+   <link href="http://vinibaggio.com/Vim/filtros.html"/>
    <updated>2010-08-24T00:00:00-03:00</updated>
-   <id>http://vinibaggio.com/Vim/2010-08-24/filtros</id>
+   <id>http://vinibaggio.com/Vim/filtros</id>
    <content type="html">&lt;h1&gt;Filtros&lt;/h1&gt;
 
 &lt;p&gt;No Vim, é possível filtrar o conteúdo de um buffer em um comando do shell.
