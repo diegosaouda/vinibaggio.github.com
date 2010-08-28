@@ -1,5 +1,5 @@
 # Blog
-This is the source code for my blog, located at [www.vinibaggio.com](http://www.vinibaggio.com). The code is MIT
+This is the source code for my blog, located at [www.vinibaggio.com](http://www.vinibaggio.com).
 
 # License
 The following directories and their contents are under
