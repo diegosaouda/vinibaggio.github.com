@@ -91,6 +91,10 @@ footer {
   a, a:hover, a:visited {
     color: $font-color + #666;
   }
+  li {
+    display: inline;
+    margin: 0 10px;
+  }
 }
 
 .image-icon {

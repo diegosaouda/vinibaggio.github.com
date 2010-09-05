@@ -3,44 +3,71 @@ article {
   clear: both;
   text-align: left;
 }
-
-/* line 12, ../_sass/content.scss */
+/* line 11, ../_sass/content.scss */
 article h1 {
   font-size: 1.3em;
   font-weight: bold;
 }
+/* line 18, ../_sass/content.scss */
+article h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+/* line 24, ../_sass/content.scss */
+article ul {
+  margin-left: 4%;
+  list-style-type: square;
+}
 
-/* line 19, ../_sass/content.scss */
+/* line 30, ../_sass/content.scss */
 section.read-more {
   text-align: left;
   font-size: 14px;
   margin: 20px 0;
 }
-
-/* line 24, ../_sass/content.scss */
+/* line 34, ../_sass/content.scss */
 section.read-more h1 {
   font-weight: bold;
 }
-
-/* line 25, ../_sass/content.scss */
+/* line 36, ../_sass/content.scss */
 section.read-more ul {
   margin-left: 20px;
 }
 
-/* line 29, ../_sass/content.scss */
+/* line 41, ../_sass/content.scss */
 p {
   margin: 20px 0;
+  text-indent: 4%;
+}
+/* line 44, ../_sass/content.scss */
+p code {
+  font-size: 0.8em;
 }
 
-/* line 33, ../_sass/content.scss */
+/* line 50, ../_sass/content.scss */
 pre {
   margin: 4%;
   padding: 4%;
   border: 1px dotted #555555;
   background-color: #eeeeee;
+  font-size: 12px;
+  line-height: 1.0em;
+  overflow: hidden;
 }
 
-/* line 40, ../_sass/content.scss */
-code, kbd {
-  font-family: Courier New, monospace;
+/* line 60, ../_sass/content.scss */
+code, kbd, code span {
+  font-family: Monaco, Courier New, monospace;
+}
+
+/* line 64, ../_sass/content.scss */
+em {
+  font-weight: bold;
+}
+
+/* line 68, ../_sass/content.scss */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
 }

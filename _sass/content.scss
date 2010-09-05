@@ -7,12 +7,23 @@ $sections-margin: 20px;
 article {
   clear: both;
   text-align: left;
-}
 
-article h1 {
-  font: {
-    size: 1.3em;
-    weight: bold;
+  h1 {
+    font: {
+      size: 1.3em;
+      weight: bold;
+    }
+  }
+
+  h2 {
+    font: {
+      size: 1.1em;
+      weight: bold;
+    }
+  }
+  ul  {
+    margin-left: $block-margin / 2;
+    list-style-type: square;
   }
 }
 
@@ -20,23 +31,42 @@ section.read-more {
   text-align: left;
   font-size: $font-body - 2px;
   margin: $sections-margin 0;
-}
-section.read-more h1 { font-weight: bold;}
-section.read-more ul {
-  margin-left: $sections-margin;
+  h1 { font-weight: bold;}
+
+  ul {
+    margin-left: $sections-margin;
+  }
 }
 
 p {
   margin: $sections-margin 0;
+  text-indent: $block-margin / 2;
+  code {
+    font-size: 0.8em;
+  }
 }
+
 
 pre {
   margin: $block-margin / 2;
   padding: $block-margin / 2;
   border: 1px dotted $block-border-color;
   background-color: $block-color;
+  font-size: 12px;
+  line-height: 1.0em;
+  overflow: hidden;
 }
 
-code, kbd {
-  font-family: Courier New, monospace;
+code, kbd, code span {
+  font-family: Monaco, Courier New, monospace;
+}
+
+em {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
 }

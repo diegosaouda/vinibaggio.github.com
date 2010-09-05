@@ -92,8 +92,13 @@ footer {
 footer a, footer a:hover, footer a:visited {
   color: #666666;
 }
+/* line 94, ../_sass/general.scss */
+footer li {
+  display: inline;
+  margin: 0 10px;
+}
 
-/* line 96, ../_sass/general.scss */
+/* line 100, ../_sass/general.scss */
 .image-icon {
   text-indent: -9999px;
 }
