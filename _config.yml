@@ -1,7 +1,7 @@
 pygments: true
 auto: true
 markdown: rdiscount
-permalink: /:categories/:title.html
+permalink: /:categories/:title
 lsi: true
 exclude:
   - config.rb
