@@ -120,7 +120,7 @@ ferrari; // { manufacturer: 'Ferrari', model: 'Enzo' }
 Note que eu não retornei nada nessa função! Por padrão, o retorno é
 <code>this</code>.
 
-Note que devemos usar o <code>this</code>, caso contrário, <code>this</code> será o objeto global. Exemplo deste código no browser, sem o <code>new</code>:
+Note que devemos usar o <code>new</code>, caso contrário, <code>this</code> será o objeto global. Exemplo deste código no browser, sem o <code>new</code>:
 
 {% highlight javascript %}
 
@@ -208,3 +208,5 @@ porsche.hasOwnProperty('price'); // true
 
 Existe muito mais a ser explorado com <code>prototype</code>, como sobrescrita,
 acesso ao construtor, etc. mas isso vai ficar para a parte 3.
+
+UPDATE 1: Corrigindo texto.
