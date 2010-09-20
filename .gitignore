@@ -7,3 +7,4 @@ db/schema.rb
 .bundle
 .sass-cache
 _site
+.DS_Store
