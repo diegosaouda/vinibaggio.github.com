@@ -5,7 +5,7 @@ category: JavaScript
 
 # Reaprendendo JavaScript [parte 2]
 
-Em [Reaprendendo JavaScript parte 1](JavaScript/reaprendendo-javascript-parte-1), eu listei boas fontes para se aprender JavaScript e alguns trechos interessantes/bizarros de JavaScript.
+Em [Reaprendendo JavaScript parte 1](/JavaScript/reaprendendo-javascript-parte-1), eu listei boas fontes para se aprender JavaScript e alguns trechos interessantes/bizarros de JavaScript.
 
 Nesse artigo, meu objetivo é falar mais sobre como trabalhar na
 linguagem que é baseada em protótipos, um conceito não muito familiar por aí. O
