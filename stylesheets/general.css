@@ -50,55 +50,55 @@ header #octocat, header #twitter {
   background-position: 0 0;
   float: right;
 }
-/* line 63, ../_sass/general.scss */
+/* line 64, ../_sass/general.scss */
 header #octocat {
   background: url(/images/octocat.png) no-repeat;
 }
-/* line 64, ../_sass/general.scss */
+/* line 65, ../_sass/general.scss */
 header #twitter {
   background: url(/images/twitter.png) no-repeat;
 }
-/* line 65, ../_sass/general.scss */
+/* line 66, ../_sass/general.scss */
 header #octocat:hover, header #twitter:hover {
   background-position: -48px;
 }
 
-/* line 71, ../_sass/general.scss */
+/* line 72, ../_sass/general.scss */
 article a, article a:hover, section a, section a:hover, nav a, nav a:hover {
   padding: 3px;
 }
-/* line 72, ../_sass/general.scss */
+/* line 73, ../_sass/general.scss */
 article a, section a, nav a {
   font-weight: bold;
   color: black;
 }
-/* line 77, ../_sass/general.scss */
+/* line 78, ../_sass/general.scss */
 article a:hover, section a:hover, nav a:hover {
   background-color: #eeeeee;
 }
-/* line 81, ../_sass/general.scss */
+/* line 82, ../_sass/general.scss */
 article a:visited, section a:visited, nav a:visited {
   color: #666666;
 }
 
-/* line 86, ../_sass/general.scss */
+/* line 87, ../_sass/general.scss */
 footer {
   font-size: 0.8em;
   margin: 3%;
   padding: 3%;
   border-top: 1px dotted black;
 }
-/* line 91, ../_sass/general.scss */
+/* line 92, ../_sass/general.scss */
 footer a, footer a:hover, footer a:visited {
   color: #666666;
 }
-/* line 94, ../_sass/general.scss */
+/* line 95, ../_sass/general.scss */
 footer li {
   display: inline;
   margin: 0 10px;
 }
 
-/* line 100, ../_sass/general.scss */
+/* line 101, ../_sass/general.scss */
 .image-icon {
   text-indent: -9999px;
 }

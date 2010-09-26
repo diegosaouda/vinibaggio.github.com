@@ -71,3 +71,14 @@ img {
   margin: 0 auto;
   max-width: 600px;
 }
+
+/* line 74, ../_sass/content.scss */
+blockquote {
+  font-family: Georgia, sans-serif;
+  text-align: left;
+  background-color: #eee;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 4%;
+  border-left: 2px solid black;
+}
