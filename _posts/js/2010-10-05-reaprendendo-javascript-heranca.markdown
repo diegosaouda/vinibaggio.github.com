@@ -1,7 +1,7 @@
 ---
 layout: post
 category: JavaScript
-title: Reaprendendo JavaScript &mdash; Herança 
+title: Reaprendendo JavaScript - Herança 
 ---
 
 # Reaprendendo JavaScript &mdash; Herança 
