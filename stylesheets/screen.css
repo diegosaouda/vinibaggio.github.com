@@ -256,7 +256,7 @@ blockquote {
 
 /* line 1, ../_sass/home.scss */
 .posts {
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: left;
 }
