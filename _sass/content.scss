@@ -22,8 +22,10 @@ article {
     }
   }
   ul  {
+    margin: $sections-margin 0;
     margin-left: $block-margin / 2;
     list-style-type: square;
+    list-style-position: inside;
   }
 }
 
@@ -62,6 +64,10 @@ code, kbd, code span {
 }
 
 em {
+  font-style: italic;
+}
+
+strong {
   font-weight: bold;
 }
 
@@ -79,4 +85,9 @@ blockquote {
   margin-bottom: 10px;
   margin-left: $block-margin / 2;
   border-left: 2px solid black;
+
+  p {
+    margin-left: $block-margin / 2;
+    text-indent: 0;
+  }
 }
