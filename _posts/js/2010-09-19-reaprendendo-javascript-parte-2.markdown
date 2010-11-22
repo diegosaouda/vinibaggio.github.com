@@ -1,6 +1,8 @@
 ---
 layout: post
 category: JavaScript
+description: Alguns conceitos avançados de JavaScript, como Closures e Orientação a Objetos.
+keywords: javascript, closure, oop, module, prototype
 ---
 
 # Reaprendendo JavaScript [parte 2]

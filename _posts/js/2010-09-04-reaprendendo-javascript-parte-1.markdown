@@ -1,6 +1,8 @@
 ---
 layout: post
 category: JavaScript
+description: Aprendendo JavaScript corretamente, livros, fontes e node.js
+keywords: javascript, node.js, closure, undefined
 ---
 
 # Reaprendendo JavaScript [parte 1]

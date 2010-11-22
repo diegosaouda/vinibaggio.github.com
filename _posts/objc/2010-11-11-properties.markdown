@@ -1,6 +1,8 @@
 ---
 layout: post
 categories: Objective-C
+description: Uma visão básica de properties e o modelo de gerência de memória em Objective-C.
+keywords: objective-c, iphone, ios, cocoa, cocoatouch
 ---
 
 # Properties

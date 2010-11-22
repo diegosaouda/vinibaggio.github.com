@@ -2,6 +2,8 @@
 layout: post
 category: JavaScript
 title: Reaprendendo JavaScript - Herança 
+description: Aprendendo a fazer herança em JavaScript
+keywords: javascript, herança, closure, oop, module, prototype
 ---
 
 # Reaprendendo JavaScript &mdash; Herança 

@@ -1,7 +1,8 @@
 ---
 layout: post
 category: Geral
-
+description: Uma descrição de como produzi meu blog
+keywords: blog, compass, sass, jekyll
 ---
 
 # Novo blog

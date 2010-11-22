@@ -2,7 +2,8 @@
 layout: post
 title: Filtros
 category: Vim
-
+description: Filtrando o texto no Vim com ferramentas unix
+keywords: vim, filtros, grep, uniq
 ---
 
 # Filtros
