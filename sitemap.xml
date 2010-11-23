@@ -6,7 +6,7 @@ layout: nil
 
   {% for post in site.posts %}
   <url>
-    <loc>http://vinibaggio.com{{ post.url }}</loc>
+    <loc>http://www.vinibaggio.com{{ post.url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@ layout: nil
   {% endfor %}
 
   <url>
-    <loc>http://vinibaggio.com/licenca.html</loc>
+    <loc>http://www.vinibaggio.com/licenca.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
