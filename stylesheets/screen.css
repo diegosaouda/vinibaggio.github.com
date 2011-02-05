@@ -219,7 +219,6 @@ p code {
 
 /* line 52, ../_sass/content.scss */
 pre {
-  margin: 4%;
   padding: 4%;
   border: 1px dotted #555555;
   background-color: #eeeeee;
@@ -228,29 +227,29 @@ pre {
   overflow: hidden;
 }
 
-/* line 62, ../_sass/content.scss */
+/* line 61, ../_sass/content.scss */
 code, kbd, code span {
   font-family: Monaco, Courier New, monospace;
 }
 
-/* line 66, ../_sass/content.scss */
+/* line 65, ../_sass/content.scss */
 em {
   font-style: italic;
 }
 
-/* line 70, ../_sass/content.scss */
+/* line 69, ../_sass/content.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 74, ../_sass/content.scss */
+/* line 73, ../_sass/content.scss */
 img {
   display: block;
   margin: 0 auto;
   max-width: 600px;
 }
 
-/* line 80, ../_sass/content.scss */
+/* line 79, ../_sass/content.scss */
 blockquote {
   font-family: Georgia, sans-serif;
   text-align: left;
@@ -260,7 +259,7 @@ blockquote {
   margin-left: 4%;
   border-left: 2px solid black;
 }
-/* line 89, ../_sass/content.scss */
+/* line 88, ../_sass/content.scss */
 blockquote p {
   margin-left: 4%;
   text-indent: 0;
