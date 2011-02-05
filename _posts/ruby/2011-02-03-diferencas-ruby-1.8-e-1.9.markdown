@@ -35,7 +35,7 @@ dia-a-dia, e eles são métodos, como era de se esperar:
 
 # ==
 "abc" == "a" # => false
-"abc".send('== "a") # => false
+"abc".send('==', "a") # => false
 
 {% endhighlight %}
 
