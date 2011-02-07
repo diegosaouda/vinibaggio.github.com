@@ -5,7 +5,7 @@ title: Licença
 
 Quando iniciei esse blog, eu havia colocado o seguinte texto no rodapé:
 
-> vinibaggio.com - nenhum direito reservado.
+> vinibaggio.net - nenhum direito reservado.
 
 Isso torna meu conteúdo sem direito reservado algum. O que eu queria
 com isso é garantir que qualquer pessoa tivesse acesso ao conteúdo,
