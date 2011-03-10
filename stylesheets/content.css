@@ -12,8 +12,9 @@ article h1 {
 article h2 {
   font-size: 1.1em;
   font-weight: bold;
+  margin-top: 20px;
 }
-/* line 24, ../_sass/content.scss */
+/* line 25, ../_sass/content.scss */
 article ul {
   margin: 20px 0;
   margin-left: 4%;
@@ -21,32 +22,32 @@ article ul {
   list-style-position: inside;
 }
 
-/* line 32, ../_sass/content.scss */
+/* line 33, ../_sass/content.scss */
 section.read-more {
   text-align: left;
   font-size: 14px;
   margin: 20px 0;
 }
-/* line 36, ../_sass/content.scss */
+/* line 37, ../_sass/content.scss */
 section.read-more h1 {
   font-weight: bold;
 }
-/* line 38, ../_sass/content.scss */
+/* line 39, ../_sass/content.scss */
 section.read-more ul {
   margin-left: 20px;
 }
 
-/* line 43, ../_sass/content.scss */
+/* line 44, ../_sass/content.scss */
 p {
   margin: 20px 0;
   text-indent: 4%;
 }
-/* line 46, ../_sass/content.scss */
+/* line 47, ../_sass/content.scss */
 p code {
   font-size: 0.8em;
 }
 
-/* line 52, ../_sass/content.scss */
+/* line 53, ../_sass/content.scss */
 pre {
   padding: 4%;
   border: 1px dotted #555555;
@@ -56,29 +57,29 @@ pre {
   overflow: hidden;
 }
 
-/* line 61, ../_sass/content.scss */
+/* line 62, ../_sass/content.scss */
 code, kbd, code span {
   font-family: Monaco, Courier New, monospace;
 }
 
-/* line 65, ../_sass/content.scss */
+/* line 66, ../_sass/content.scss */
 em {
   font-style: italic;
 }
 
-/* line 69, ../_sass/content.scss */
+/* line 70, ../_sass/content.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 73, ../_sass/content.scss */
+/* line 74, ../_sass/content.scss */
 img {
   display: block;
   margin: 0 auto;
   max-width: 600px;
 }
 
-/* line 79, ../_sass/content.scss */
+/* line 80, ../_sass/content.scss */
 blockquote {
   font-family: Georgia, sans-serif;
   text-align: left;
@@ -88,7 +89,7 @@ blockquote {
   margin-left: 4%;
   border-left: 2px solid black;
 }
-/* line 88, ../_sass/content.scss */
+/* line 89, ../_sass/content.scss */
 blockquote p {
   margin-left: 4%;
   text-indent: 0;
