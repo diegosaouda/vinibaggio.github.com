@@ -74,7 +74,7 @@ reagindo de forma mais lenta a problemas. Fazendo uma tradução livre, ele cheg
     "tempo-qualidade-dinheiro, escolha dois".
 
 É importante também lembrar que a ThoughtWorks fez bastante propaganda do livro
-[Continuous Deployment](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/ref=sr_1_1?ie=UTF8&qid=1318211499&sr=8-1), por Jez Humble e David Farley, na QCon SP nesse ano.
+[Continuous Delivery](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912/ref=sr_1_1?ie=UTF8&qid=1318211499&sr=8-1), por Jez Humble e David Farley, na QCon SP nesse ano.
 
 ### Capítulo 12 - Relational Database Strategy and Tactics for the Web
 
