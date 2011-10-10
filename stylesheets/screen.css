@@ -1,61 +1,66 @@
-/* line 14, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
   font-size: 100%;
-  font-family: inherit;
+  font: inherit;
   vertical-align: baseline;
 }
 
-/* line 17, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
-  color: black;
-  background: white;
 }
 
-/* line 19, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 21, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
-  vertical-align: middle;
 }
 
-/* line 23, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 25, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
-  quotes: "" "";
+  quotes: none;
 }
-/* line 96, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
+  content: none;
 }
 
-/* line 27, ../../.rvm/gems/ree-1.8.7-2011.02/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
+}
+
+/* line 114, ../../.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
 }
 
 /* HTML 5 CSS Reset */
@@ -185,7 +190,11 @@ article h2 {
   font-weight: bold;
   margin-top: 20px;
 }
-/* line 25, ../_sass/content.scss */
+/* line 26, ../_sass/content.scss */
+article h3 {
+  font-weight: bold;
+}
+/* line 28, ../_sass/content.scss */
 article ul {
   margin: 20px 0;
   margin-left: 4%;
@@ -193,32 +202,32 @@ article ul {
   list-style-position: inside;
 }
 
-/* line 33, ../_sass/content.scss */
+/* line 36, ../_sass/content.scss */
 section.read-more {
   text-align: left;
   font-size: 14px;
   margin: 20px 0;
 }
-/* line 37, ../_sass/content.scss */
+/* line 40, ../_sass/content.scss */
 section.read-more h1 {
   font-weight: bold;
 }
-/* line 39, ../_sass/content.scss */
+/* line 42, ../_sass/content.scss */
 section.read-more ul {
   margin-left: 20px;
 }
 
-/* line 44, ../_sass/content.scss */
+/* line 47, ../_sass/content.scss */
 p {
   margin: 20px 0;
   text-indent: 4%;
 }
-/* line 47, ../_sass/content.scss */
+/* line 50, ../_sass/content.scss */
 p code {
   font-size: 0.8em;
 }
 
-/* line 53, ../_sass/content.scss */
+/* line 56, ../_sass/content.scss */
 pre {
   padding: 4%;
   border: 1px dotted #555555;
@@ -228,29 +237,29 @@ pre {
   overflow: hidden;
 }
 
-/* line 62, ../_sass/content.scss */
+/* line 65, ../_sass/content.scss */
 code, kbd, code span {
   font-family: Monaco, Courier New, monospace;
 }
 
-/* line 66, ../_sass/content.scss */
+/* line 69, ../_sass/content.scss */
 em {
   font-style: italic;
 }
 
-/* line 70, ../_sass/content.scss */
+/* line 73, ../_sass/content.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 74, ../_sass/content.scss */
+/* line 77, ../_sass/content.scss */
 img {
   display: block;
   margin: 0 auto;
   max-width: 600px;
 }
 
-/* line 80, ../_sass/content.scss */
+/* line 83, ../_sass/content.scss */
 blockquote {
   font-family: Georgia, sans-serif;
   text-align: left;
@@ -260,7 +269,7 @@ blockquote {
   margin-left: 4%;
   border-left: 2px solid black;
 }
-/* line 89, ../_sass/content.scss */
+/* line 92, ../_sass/content.scss */
 blockquote p {
   margin-left: 4%;
   text-indent: 0;
