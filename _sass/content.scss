@@ -22,6 +22,9 @@ article {
     }
     margin-top: $sections-margin;
   }
+
+  h3 { text-decoration: underline; }
+
   ul  {
     margin: $sections-margin 0;
     margin-left: $block-margin / 2;
