@@ -62,7 +62,7 @@ Há alguns detalhes importantes sobre o CSS acima:
   especificidades. O resultado final do CSS pode ser observado no [gist](https://gist.github.com/1274488).
 +  Eu acho interessante deixar uma cor de fundo, caso tudo dê errado e a imagem
   não ser exibida, ainda deixará o site com uma aparência razoável.
-+  Este CSS está funcionando perfeitamente em Opera, Firefox e Chrome. Não funciona no IE 7, IE 8 e IE 9, mas deve ser possível fazer algum hack.
++  Este CSS está funcionando perfeitamente em Opera, Firefox e Chrome. Não funciona no IE 7, IE 8 e IE 9, mas deve ser possível fazer algum hack. Para o RockInSampa, eu fiz um fallback com o background somente com a textura.
 
 Para mais informações sobre gradientes CSS, veja [neste post no CSS tricks](http://css-tricks.com/5700-css3-gradients/).
 
