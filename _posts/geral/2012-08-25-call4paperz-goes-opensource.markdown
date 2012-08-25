@@ -24,7 +24,7 @@ So, to stop being unfair to call4paperz users, now call4paperz is opensource.
 I will still pay for hosting, domain and manage the Twitter account, but any
 further development are now welcome. Please submit your pull request :)
 
-The source code lives in [GitHub](github.com/vinibaggio/call4paperz) under MIT
+The source code lives in [GitHub](https://github.com/vinibaggio/call4paperz) under MIT
 license. You can also join the [mailing
 list](https://groups.google.com/forum/#!forum/call4paperz-dev).
 
