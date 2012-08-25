@@ -13,7 +13,7 @@ online and being used by a lot of people. It is definitely one of my most
 successful personal projects I've ever made, and I am really proud of it.
 
 Unfortunately, I haven't been fair to it. It has a lot of potential, but I've
-only being done some simple maintenance in this period, and I am sorry, I have
+only been doing some simple maintenance in this period, and I am sorry, I have
 not been fair to call4paperz users. I was working on a complete rewrite
 (remember, it is a RailsRumble project) and redesign, but I lost the will of
 doing that. I've moved to San Francisco and a lot of new projects are queueing
