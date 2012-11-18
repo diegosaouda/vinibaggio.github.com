@@ -4,21 +4,27 @@ article {
   text-align: left;
 }
 /* line 11, ../_sass/content.scss */
+article .title {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 70px;
+}
+/* line 17, ../_sass/content.scss */
 article h1 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
 }
-/* line 18, ../_sass/content.scss */
+/* line 24, ../_sass/content.scss */
 article h2 {
   font-size: 1.1em;
   font-weight: bold;
   margin-top: 20px;
 }
-/* line 26, ../_sass/content.scss */
+/* line 32, ../_sass/content.scss */
 article h3 {
   font-weight: bold;
 }
-/* line 28, ../_sass/content.scss */
+/* line 34, ../_sass/content.scss */
 article ul {
   margin: 20px 0;
   margin-left: 4%;
@@ -26,32 +32,33 @@ article ul {
   list-style-position: inside;
 }
 
-/* line 36, ../_sass/content.scss */
+/* line 42, ../_sass/content.scss */
 section.read-more {
   text-align: left;
   font-size: 14px;
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-/* line 40, ../_sass/content.scss */
+/* line 48, ../_sass/content.scss */
 section.read-more h1 {
   font-weight: bold;
 }
-/* line 42, ../_sass/content.scss */
+/* line 50, ../_sass/content.scss */
 section.read-more ul {
   margin-left: 20px;
 }
 
-/* line 47, ../_sass/content.scss */
+/* line 55, ../_sass/content.scss */
 p {
   margin: 20px 0;
   text-indent: 4%;
 }
-/* line 50, ../_sass/content.scss */
+/* line 58, ../_sass/content.scss */
 p code {
   font-size: 0.8em;
 }
 
-/* line 56, ../_sass/content.scss */
+/* line 63, ../_sass/content.scss */
 pre {
   padding: 4%;
   border: 1px dotted #555555;
@@ -61,29 +68,29 @@ pre {
   overflow: hidden;
 }
 
-/* line 65, ../_sass/content.scss */
+/* line 72, ../_sass/content.scss */
 code, kbd, code span {
   font-family: Monaco, Courier New, monospace;
 }
 
-/* line 69, ../_sass/content.scss */
+/* line 76, ../_sass/content.scss */
 em {
   font-style: italic;
 }
 
-/* line 73, ../_sass/content.scss */
+/* line 80, ../_sass/content.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 77, ../_sass/content.scss */
+/* line 84, ../_sass/content.scss */
 img {
   display: block;
   margin: 0 auto;
   max-width: 600px;
 }
 
-/* line 83, ../_sass/content.scss */
+/* line 90, ../_sass/content.scss */
 blockquote {
   font-family: Georgia, sans-serif;
   text-align: left;
@@ -93,7 +100,7 @@ blockquote {
   margin-left: 4%;
   border-left: 2px solid black;
 }
-/* line 92, ../_sass/content.scss */
+/* line 99, ../_sass/content.scss */
 blockquote p {
   margin-left: 4%;
   text-indent: 0;

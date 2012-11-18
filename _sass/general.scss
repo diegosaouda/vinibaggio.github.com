@@ -1,71 +1,122 @@
-$page-width: 600px;
+@import "compass/css3/border-radius";
+@import "compass/css3/text-shadow";
+@import "compass/css3/box-shadow";
+
+$left-part: 25%;
 $font-body: 16px;
 $font-color: black;
 $bg-color: white;
-$heading-fonts: Helvetica Neue, Helvetica, sans-serif;
 
 body {
   color: $font-color;
-  background-color: $bg-color;
-  width: $page-width;
+  width: 100%;
   text-align: center;
-  font: $font-body Palatino Linotype, Book Antiqua, Palatino, Georgia, serif;
+  font: $font-body 'Open Sans', 'sans-serif';
 
-  margin: {
-    left: auto;
-    right: auto;
-  }
+  margin: auto auto;
   line-height: 1.8em;
+  background-image: url('/images/noise.jpg');
 }
+
 h1,h2,h3 {
-  font: {
-    family: $heading-fonts;
-    color: $font-color;
-  }
+  font-color: $font-color;
 }
 
 header {
-  width: 100%;
-  padding: 20px 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: $left-part;
+  position: fixed;
+  padding: 20px 0 0 10px;
   margin-bottom: 10px; 
 
-  text-align: left;
-  border-bottom: 1px solid $font-color;
+  text-align: center;
+
+  .avatar {
+    float: left;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 60px;
+    height: 60px;
+    @include border-radius(50%);
+    @include box-shadow(#ccc 0 0 5px);
+    img {
+      @include border-radius(50%);
+    }
+  }
 
   h1 {
-    height: 50px;
+    margin-left: 6px;
+    line-height: 70px;
+    vertical-align: middle;
+    float: left;
     font: {
-      size: 4em;
-      weight: 800;
+      size: 2em;
+      weight: 700;
     }
-    letter-spacing: -0.07em;
-    a, a:hover, a:visited{
-      color: $font-color;
-      background-color: $bg-color;
-      text-decoration: none;
+  }
+  a, a:hover, a:visited{
+    margin: 5px 0;
+    color: $font-color;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .author-desc {
+    clear: both;
+    padding: 10px 0;
+  }
+
+  $icon-size: 52px;
+
+  #book {
+    margin: 30px 0;
+    font-size: 1.3em;
+    img {
+      @include box-shadow(#ddd 0 0 5px);
+      margin-bottom: 5px;
     }
   }
 
-  h2 {
-    font-size: 1.5em;
-    display: inline;
+  #book + * {
+    margin-left: 30%;
   }
 
-  $icon-size: 48px;
+  #book ~ * {
+    margin-right: 10px;
+    display: block;
+    float: left;
+    a { 
+      display: inline-block;
+      margin: 0;
+    }
+  }
 
-  #octocat, #twitter {
+  #github, #twitter {
+    width: $icon-size;
+    height: $icon-size;
+    background-color: white;
+    @include border-radius(50%);
+    @include box-shadow(#ccc 0 0 5px);
+    border: 1px solid #ccc;
+  }
+
+  #github > a, #twitter > a {
+    @include border-radius(50%);
     vertical-align: baseline;
     width: $icon-size;
     height: $icon-size;
     background-position: 0 0;
-    float: right;
   }
 
-  #octocat{ background: url(/images/octocat.png) no-repeat; }
-  #twitter{ background: url(/images/twitter.png) no-repeat; }
-  #octocat:hover, #twitter:hover {
-    background-position: 0 -$icon-size;
-  }
+  #github > a { background: url(/images/octocat.png) no-repeat center; }
+  #twitter > a { background: url(/images/twitter.png) no-repeat center; }
+}
+
+#content {
+  margin-left: $left-part;
+  border-left: 1px solid #eee;
+  padding: 20px 40px 50px;
 }
 
 article, section, nav {
@@ -85,8 +136,10 @@ article, section, nav {
 }
 
 footer {
+  margin-left: $left-part;
   font-size: 0.8em;
-  margin: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   padding: 3%;
   border-top: 1px dotted black;
   a, a:hover, a:visited {

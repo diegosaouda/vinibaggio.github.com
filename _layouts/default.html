@@ -4,49 +4,25 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="author" content="Vinicius Baggio Fuentes" />
-        <meta name="description" content="Blog pessoal de Vinicius Baggio
-        Fuentes, escrevendo sobre programação e ferramentas." />
-        <meta name="keywords" content="programação, vinibaggio, javascript,
-        ruby, objective-c, iphone, ios, vim"/>
+        <meta name="description" content="{{ page.description }}"/>
+        <meta name="keywords" content="{{ page.keywords }}"/>
 
-        <title>{{ page.title }} &mdash; vinibaggio.net - refactoring myself each day</title>
+        <title>vinibaggio.net</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
         <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="/stylesheets/syntax.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
         <!--[if IE]>
           <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
         <![endif]-->
         <link rel="alternate" type="application/atom+xml" title="vinibaggio.net" href="http://vinibaggio.net/atom.xml" />
-
     </head>
 
     <body>
-      <header>
-        <h1><a href="/">vinibaggio.net</a></h1>
-        <h2>refactoring myself each day.</h2>
-        <a href="http://www.github.com/vinibaggio" id="octocat" class="image-icon" title="Meu perfil no GitHub">GitHub</a>
-        <a href="http://www.twitter.com/vinibaggio" id="twitter" class="image-icon" title="Meu Twitter">Twitter</a>
-      </header>
-      <nav>
-        {{ content }}
-      </nav>
-      <footer>
-        <ul>
-          <li>
-          <li><a href="/" title="Página inicial">Home</a></li>
-          <li>
-            <a href="http://github.com/vinibaggio/vinibaggio.github.com"
-              title="Código fonte do blog no GitHub">
-              Código fonte
-            </a>
-          </li>
-          <li><a href="/licenca.html">Licença</a></li>
-        </ul>
-        vinibaggio.net &mdash; alguns direitos reservados.
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Contrat Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
-      </footer>
       <script type="text/javascript">
-
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-6968963-1']);
         _gaq.push(['_trackPageview']);
@@ -58,5 +34,53 @@
         })();
 
       </script>
+      <header>
+        <div class="avatar">
+          <img src="/images/me.png"/>
+        </div>
+        <h1>
+          <a href="/">Vinicius Baggio Fuentes</a>
+        </h1>
+        <ol class="author-desc">
+          <li>
+            Software Engineer &mdash; <a href="http://www.pivotallabs.com">Pivotal Labs</a>
+          </li>
+          <li>
+            Autor &mdash; <a href="http://www.casadocodigo.com.br">Casa do Código</a>
+          </li>
+          <li id="book">
+          <a href="http://casadocodigo.com.br/products/ruby-on-rails-coloque-sua-aplicacao-web-nos-trilhos" title="Livro Ruby on Rails: Coloque sua aplicação web nos trilhos"><img src="/images/ror-book.jpeg"/>Compre já!</a>
+          </li>
+          <li id="github">
+            <a href="http://www.github.com/vinibaggio" class="image-icon" title="Meu perfil no GitHub">GitHub</a>
+          </li>
+          <li id="twitter">
+            <a href="http://www.twitter.com/vinibaggio" class="image-icon" title="@vinibaggio">@vinibaggio</a>
+          </li>
+        </section>
+      </header>
+      <div id="content">
+        <p>
+        Vinícius Baggio Fuentes é um desenvolvedor de software, principalmente com as linguages Ruby, JavaScript e Objective-C. Também tenta ser um escritor, e sabe que tem muito o que aprender. Hoje mora em San Francisco, trabalhando para a Pivotal Labs, mas antes trabalhava como consultor pela PlataformaTec.
+        </p>
+        <article>
+          {{ content }}
+        </article>
+      <footer>
+        <ul>
+          <li><a href="/" title="Página inicial">Home</a></li>
+          <li><a href="#" title="Subir">Topo</a></li>
+          <li>
+            <a href="http://github.com/vinibaggio/vinibaggio.github.com"
+              title="Código fonte do blog no GitHub">
+              Código fonte
+            </a>
+          </li>
+          <li><a href='/licenca.html'>Licença</a></li>
+        </ul>
+        vinibaggio.net &mdash; alguns direitos reservados.
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Contrat Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+      </footer>
+      </div>
     </body>
 </html>

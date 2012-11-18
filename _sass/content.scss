@@ -8,9 +8,15 @@ article {
   clear: both;
   text-align: left;
 
+  .title {
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 70px;
+  }
+
   h1 {
     font: {
-      size: 1.3em;
+      size: 1.2em;
       weight: bold;
     }
   }
@@ -36,7 +42,9 @@ article {
 section.read-more {
   text-align: left;
   font-size: $font-body - 2px;
-  margin: $sections-margin 0;
+  margin-top: $sections-margin;
+  margin-bottom: $sections-margin;
+
   h1 { font-weight: bold;}
 
   ul {
@@ -51,7 +59,6 @@ p {
     font-size: 0.8em;
   }
 }
-
 
 pre {
   padding: $block-margin / 2;
