@@ -1,8 +1,7 @@
 ---
 layout: post
 category: Prog Funcional
-description: Uma abertura sobre uma série de posts que farei sobre programação
-funcional
+description: Uma abertura sobre uma série de posts que farei sobre programação funcional
 title: Aprendendo programação funcional
 keywords: programação funcional, scala, erlang, clojure
 ---
