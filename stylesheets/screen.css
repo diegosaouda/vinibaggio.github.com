@@ -69,7 +69,7 @@ section, article, header, footer {
   display: block;
 }
 
-/* line 10, ../_sass/general.scss */
+/* line 7, ../_sass/general.scss */
 body {
   color: black;
   width: 100%;
@@ -80,12 +80,12 @@ body {
   background-image: url("/images/noise.jpg");
 }
 
-/* line 21, ../_sass/general.scss */
+/* line 18, ../_sass/general.scss */
 h1, h2, h3 {
   color: black;
 }
 
-/* line 25, ../_sass/general.scss */
+/* line 22, ../_sass/general.scss */
 header {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 25%;
@@ -93,7 +93,16 @@ header {
   padding-top: 20px;
   text-align: center;
 }
-/* line 33, ../_sass/general.scss */
+@media screen and (max-width: 320px) {
+  /* line 22, ../_sass/general.scss */
+  header {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 20px;
+  }
+}
+/* line 37, ../_sass/general.scss */
 header .avatar {
   display: inline-block;
   vertical-align: middle;
@@ -111,7 +120,7 @@ header .avatar {
   -moz-box-shadow: #cccccc 0 0 5px;
   box-shadow: #cccccc 0 0 5px;
 }
-/* line 43, ../_sass/general.scss */
+/* line 47, ../_sass/general.scss */
 header .avatar img {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -119,7 +128,7 @@ header .avatar img {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 48, ../_sass/general.scss */
+/* line 52, ../_sass/general.scss */
 header h1 {
   margin-left: 6px;
   line-height: 70px;
@@ -128,41 +137,47 @@ header h1 {
   font-size: 2em;
   font-weight: 700;
 }
-/* line 58, ../_sass/general.scss */
+/* line 62, ../_sass/general.scss */
 header a, header a:hover, header a:visited {
   margin: 5px 0;
   color: black;
   text-decoration: none;
   font-weight: 700;
 }
-/* line 65, ../_sass/general.scss */
+/* line 69, ../_sass/general.scss */
 header .author-desc {
   clear: both;
   padding: 10px 0;
 }
-/* line 72, ../_sass/general.scss */
+@media screen and (max-width: 320px) {
+  /* line 69, ../_sass/general.scss */
+  header .author-desc {
+    display: none;
+  }
+}
+/* line 79, ../_sass/general.scss */
 header #book {
   margin: 30px 0;
   font-size: 1.3em;
 }
-/* line 75, ../_sass/general.scss */
+/* line 82, ../_sass/general.scss */
 header #book img {
   -webkit-box-shadow: #dddddd 0 0 5px;
   -moz-box-shadow: #dddddd 0 0 5px;
   box-shadow: #dddddd 0 0 5px;
   margin-bottom: 5px;
 }
-/* line 82, ../_sass/general.scss */
+/* line 89, ../_sass/general.scss */
 header .profiles div {
   margin-right: 10px;
 }
-/* line 85, ../_sass/general.scss */
+/* line 92, ../_sass/general.scss */
 header .profiles a {
   display: block;
   float: left;
   margin: 0;
 }
-/* line 92, ../_sass/general.scss */
+/* line 99, ../_sass/general.scss */
 header #github, header #twitter {
   display: inline-block;
   width: 52px;
@@ -178,7 +193,7 @@ header #github, header #twitter {
   box-shadow: #cccccc 0 0 5px;
   border: 1px solid #ccc;
 }
-/* line 102, ../_sass/general.scss */
+/* line 109, ../_sass/general.scss */
 header #github > a, header #twitter > a {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -190,41 +205,48 @@ header #github > a, header #twitter > a {
   height: 52px;
   background-position: 0 0;
 }
-/* line 110, ../_sass/general.scss */
+/* line 117, ../_sass/general.scss */
 header #github > a {
   background: url(/images/octocat.png) no-repeat center;
 }
-/* line 111, ../_sass/general.scss */
+/* line 118, ../_sass/general.scss */
 header #twitter > a {
   background: url(/images/twitter.png) no-repeat center;
 }
 
-/* line 114, ../_sass/general.scss */
+/* line 121, ../_sass/general.scss */
 #content {
   margin-left: 25%;
-  border-left: 1px solid #eee;
+  border-left: 1px solid #eeeeee;
   padding: 20px 40px 50px;
 }
+@media screen and (max-width: 320px) {
+  /* line 121, ../_sass/general.scss */
+  #content {
+    margin-left: 0;
+    border-left: none;
+  }
+}
 
-/* line 121, ../_sass/general.scss */
+/* line 132, ../_sass/general.scss */
 article a, article a:hover, section a, section a:hover, nav a, nav a:hover {
   padding: 3px;
 }
-/* line 122, ../_sass/general.scss */
+/* line 133, ../_sass/general.scss */
 article a, section a, nav a {
   font-weight: bold;
   color: black;
 }
-/* line 127, ../_sass/general.scss */
+/* line 138, ../_sass/general.scss */
 article a:hover, section a:hover, nav a:hover {
   background-color: #eeeeee;
 }
-/* line 131, ../_sass/general.scss */
+/* line 142, ../_sass/general.scss */
 article a:visited, section a:visited, nav a:visited {
   color: #666666;
 }
 
-/* line 136, ../_sass/general.scss */
+/* line 147, ../_sass/general.scss */
 footer {
   margin-left: 25%;
   font-size: 0.8em;
@@ -233,48 +255,56 @@ footer {
   padding: 3%;
   border-top: 1px dotted black;
 }
-/* line 143, ../_sass/general.scss */
+/* line 154, ../_sass/general.scss */
 footer a, footer a:hover, footer a:visited {
   color: #666666;
 }
-/* line 146, ../_sass/general.scss */
+/* line 157, ../_sass/general.scss */
 footer li {
   display: inline;
   margin: 0 10px;
 }
 
-/* line 152, ../_sass/general.scss */
+/* line 163, ../_sass/general.scss */
 .image-icon {
   text-indent: -9999px;
 }
 
-/* line 7, ../_sass/content.scss */
+/* line 3, ../_sass/content.scss */
 article {
   clear: both;
   text-align: left;
 }
-/* line 11, ../_sass/content.scss */
+/* line 7, ../_sass/content.scss */
 article .title {
   font-weight: bold;
   font-size: 1.5em;
   line-height: 70px;
 }
-/* line 17, ../_sass/content.scss */
+@media screen and (max-width: 320px) {
+  /* line 7, ../_sass/content.scss */
+  article .title {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+  }
+}
+/* line 18, ../_sass/content.scss */
 article h1 {
-  font-size: 1.2em;
+  font-size: 1.0em;
   font-weight: bold;
 }
-/* line 24, ../_sass/content.scss */
+/* line 25, ../_sass/content.scss */
 article h2 {
   font-size: 1.1em;
   font-weight: bold;
   margin-top: 20px;
 }
-/* line 32, ../_sass/content.scss */
+/* line 33, ../_sass/content.scss */
 article h3 {
   font-weight: bold;
 }
-/* line 34, ../_sass/content.scss */
+/* line 35, ../_sass/content.scss */
 article ul {
   margin: 20px 0;
   margin-left: 4%;
@@ -282,33 +312,33 @@ article ul {
   list-style-position: inside;
 }
 
-/* line 42, ../_sass/content.scss */
+/* line 43, ../_sass/content.scss */
 section.read-more {
   text-align: left;
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 48, ../_sass/content.scss */
+/* line 49, ../_sass/content.scss */
 section.read-more h1 {
   font-weight: bold;
 }
-/* line 50, ../_sass/content.scss */
+/* line 51, ../_sass/content.scss */
 section.read-more ul {
   margin-left: 20px;
 }
 
-/* line 55, ../_sass/content.scss */
+/* line 56, ../_sass/content.scss */
 p {
   margin: 20px 0;
   text-indent: 4%;
 }
-/* line 58, ../_sass/content.scss */
+/* line 59, ../_sass/content.scss */
 p code {
   font-size: 0.8em;
 }
 
-/* line 63, ../_sass/content.scss */
+/* line 64, ../_sass/content.scss */
 pre {
   padding: 4%;
   border: 1px dotted #555555;
@@ -318,29 +348,29 @@ pre {
   overflow: hidden;
 }
 
-/* line 72, ../_sass/content.scss */
+/* line 73, ../_sass/content.scss */
 code, kbd, code span {
   font-family: Monaco, Courier New, monospace;
 }
 
-/* line 76, ../_sass/content.scss */
+/* line 77, ../_sass/content.scss */
 em {
   font-style: italic;
 }
 
-/* line 80, ../_sass/content.scss */
+/* line 81, ../_sass/content.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 84, ../_sass/content.scss */
+/* line 85, ../_sass/content.scss */
 img {
   display: block;
   margin: 0 auto;
   max-width: 600px;
 }
 
-/* line 90, ../_sass/content.scss */
+/* line 91, ../_sass/content.scss */
 blockquote {
   font-family: Georgia, sans-serif;
   text-align: left;
@@ -350,7 +380,7 @@ blockquote {
   margin-left: 4%;
   border-left: 2px solid black;
 }
-/* line 99, ../_sass/content.scss */
+/* line 100, ../_sass/content.scss */
 blockquote p {
   margin-left: 4%;
   text-indent: 0;

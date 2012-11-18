@@ -1,8 +1,4 @@
-$block-border-color: #555;
-$block-color: #eee;
-$block-margin: 8%;
-$font-body: 16px;
-$sections-margin: 20px;
+@import "constants";
 
 article {
   clear: both;
@@ -12,11 +8,16 @@ article {
     font-weight: bold;
     font-size: 1.5em;
     line-height: 70px;
+    @media screen and (max-width: $break-small) {
+      font-size: 1.2em;
+      line-height: 1.5em;
+      margin-bottom: 10px;
+    }
   }
 
   h1 {
     font: {
-      size: 1.2em;
+      size: 1.0em;
       weight: bold;
     }
   }
