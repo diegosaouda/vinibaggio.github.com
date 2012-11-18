@@ -11,7 +11,7 @@ body {
 
 /* line 21, ../_sass/general.scss */
 h1, h2, h3 {
-  font-color: black;
+  color: black;
 }
 
 /* line 25, ../_sass/general.scss */
@@ -19,13 +19,13 @@ header {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   width: 25%;
   position: fixed;
-  padding: 20px 0 0 10px;
-  margin-bottom: 10px;
+  padding-top: 20px;
   text-align: center;
 }
-/* line 34, ../_sass/general.scss */
+/* line 33, ../_sass/general.scss */
 header .avatar {
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
   padding: 5px;
   background-color: white;
   border: 1px solid #ccc;
@@ -53,7 +53,7 @@ header h1 {
   margin-left: 6px;
   line-height: 70px;
   vertical-align: middle;
-  float: left;
+  display: inline-block;
   font-size: 2em;
   font-weight: 700;
 }
@@ -81,23 +81,19 @@ header #book img {
   box-shadow: #dddddd 0 0 5px;
   margin-bottom: 5px;
 }
-/* line 81, ../_sass/general.scss */
-header #book + * {
-  margin-left: 30%;
+/* line 82, ../_sass/general.scss */
+header .profiles div {
+  margin-right: 10px;
 }
 /* line 85, ../_sass/general.scss */
-header #book ~ * {
-  margin-right: 10px;
+header .profiles a {
   display: block;
   float: left;
-}
-/* line 89, ../_sass/general.scss */
-header #book ~ * a {
-  display: inline-block;
   margin: 0;
 }
-/* line 95, ../_sass/general.scss */
+/* line 92, ../_sass/general.scss */
 header #github, header #twitter {
+  display: inline-block;
   width: 52px;
   height: 52px;
   background-color: white;
@@ -111,7 +107,7 @@ header #github, header #twitter {
   box-shadow: #cccccc 0 0 5px;
   border: 1px solid #ccc;
 }
-/* line 104, ../_sass/general.scss */
+/* line 102, ../_sass/general.scss */
 header #github > a, header #twitter > a {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -123,41 +119,41 @@ header #github > a, header #twitter > a {
   height: 52px;
   background-position: 0 0;
 }
-/* line 112, ../_sass/general.scss */
+/* line 110, ../_sass/general.scss */
 header #github > a {
   background: url(/images/octocat.png) no-repeat center;
 }
-/* line 113, ../_sass/general.scss */
+/* line 111, ../_sass/general.scss */
 header #twitter > a {
   background: url(/images/twitter.png) no-repeat center;
 }
 
-/* line 116, ../_sass/general.scss */
+/* line 114, ../_sass/general.scss */
 #content {
   margin-left: 25%;
   border-left: 1px solid #eee;
   padding: 20px 40px 50px;
 }
 
-/* line 123, ../_sass/general.scss */
+/* line 121, ../_sass/general.scss */
 article a, article a:hover, section a, section a:hover, nav a, nav a:hover {
   padding: 3px;
 }
-/* line 124, ../_sass/general.scss */
+/* line 122, ../_sass/general.scss */
 article a, section a, nav a {
   font-weight: bold;
   color: black;
 }
-/* line 129, ../_sass/general.scss */
+/* line 127, ../_sass/general.scss */
 article a:hover, section a:hover, nav a:hover {
   background-color: #eeeeee;
 }
-/* line 133, ../_sass/general.scss */
+/* line 131, ../_sass/general.scss */
 article a:visited, section a:visited, nav a:visited {
   color: #666666;
 }
 
-/* line 138, ../_sass/general.scss */
+/* line 136, ../_sass/general.scss */
 footer {
   margin-left: 25%;
   font-size: 0.8em;
@@ -166,17 +162,17 @@ footer {
   padding: 3%;
   border-top: 1px dotted black;
 }
-/* line 145, ../_sass/general.scss */
+/* line 143, ../_sass/general.scss */
 footer a, footer a:hover, footer a:visited {
   color: #666666;
 }
-/* line 148, ../_sass/general.scss */
+/* line 146, ../_sass/general.scss */
 footer li {
   display: inline;
   margin: 0 10px;
 }
 
-/* line 154, ../_sass/general.scss */
+/* line 152, ../_sass/general.scss */
 .image-icon {
   text-indent: -9999px;
 }

@@ -19,20 +19,20 @@ body {
 }
 
 h1,h2,h3 {
-  font-color: $font-color;
+  color: $font-color;
 }
 
 header {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   width: $left-part;
   position: fixed;
-  padding: 20px 0 0 10px;
-  margin-bottom: 10px; 
+  padding-top: 20px;
 
   text-align: center;
 
   .avatar {
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
     padding: 5px;
     background-color: white;
     border: 1px solid #ccc;
@@ -49,7 +49,7 @@ header {
     margin-left: 6px;
     line-height: 70px;
     vertical-align: middle;
-    float: left;
+    display: inline-block;
     font: {
       size: 2em;
       weight: 700;
@@ -78,21 +78,19 @@ header {
     }
   }
 
-  #book + * {
-    margin-left: 30%;
-  }
-
-  #book ~ * {
-    margin-right: 10px;
-    display: block;
-    float: left;
-    a { 
-      display: inline-block;
+  .profiles {
+    div {
+      margin-right: 10px;
+    }
+    a {
+      display: block;
+      float: left;
       margin: 0;
     }
   }
 
   #github, #twitter {
+    display: inline-block;
     width: $icon-size;
     height: $icon-size;
     background-color: white;
